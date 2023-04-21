@@ -89,10 +89,29 @@ button {
     text-align:center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.txt-m2 {
+    background-color: rgb(216, 250, 152);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.txt-m3 {
+    
+    background-color: rgb(222, 152, 250);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .ms-1 {
     margin-top: 8px;
-    max-width: 70rem;
+    max-width: 100rem;
     text-align: center;
     font-size: 18px;
     color: #4a5568;
@@ -126,4 +145,8 @@ button {
 .mspan:hover {
     color: rgb(250, 227, 152);
     transform:scale(1.025) translateZ(0px);
+}
+
+hr {
+    margin-bottom: 20px;
 }
