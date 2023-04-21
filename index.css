@@ -104,6 +104,7 @@ button {
     padding-left: 5px;
     padding-right:0px;
     border-radius: .2rem;
+    font-style: italic;
 }
 .tip-1 {
     font-style: italic;
