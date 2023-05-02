@@ -137,6 +137,12 @@ button {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     color: #4a5568;
 }
+.tip-1SP {
+    font-style: italic;
+    font-weight: 700;
+    
+    color: #9b51a0;
+}
 
 .mspan {
     color: #4a5568;
