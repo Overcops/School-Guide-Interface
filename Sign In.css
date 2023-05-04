@@ -17,6 +17,7 @@ h1, h2, p {
     box-sizing:inherit;
     text-align: center;
     
+    
 }
 
 .sin-h1 {
@@ -26,6 +27,19 @@ h1, h2, p {
     margin: 16px 0px 0px;
     color: rgb(53, 53, 53);
     font-family:cursive, -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.sin-h1::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    background-size: contain;
+    
+    
 }
 .sin-h2 {
     text-align: center;
@@ -44,7 +58,20 @@ h1, h2, p {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     
 }
+.sin-p1::before {
+        content: "";
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        background-image: url(user.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 5px;
+        background-size: contain;
+        
+}
 .m-b {
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.15));
     background-color: #4299e1;
     border-radius: .5rem;
     margin: 20px 0px 0px;
@@ -143,6 +170,7 @@ button {
     font-weight: 700;
     color: #9b51a0;
 }
+
 .italic {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     color: #4a5568;
@@ -161,4 +189,13 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     color:red;
+}
+.rights {
+    max-width: 100rem;
+    text-align: center;
+    font-size: 14px;
+    margin: 50px 0px 0px;
+    color: #4a5568;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    
 }
