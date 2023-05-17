@@ -55,6 +55,7 @@ h1, h2, p {
     
 }
 .m-b {
+   filter: drop-shadow(0 0 10px rgba(0,0,0,0.15));
    background-color: #4299e1;
    border-radius: .5rem;
    margin: 20px 0px 0px;
